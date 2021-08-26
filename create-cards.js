@@ -37,6 +37,8 @@ const projectColumns = await getColumns(projectId);
 for (let col of cards.columns) {
     let projectColumn = projectColumns?.find(c => c.name === col.name);
     let colId = projectColumn?.id ?? await createColumn(col.name, projectId);
-    colId && projectColumn[id] = colId;
+    if (!projectColumn.id) {
+        projectColumn.id = colId;
+    }
 }
 console.log(projectId);
