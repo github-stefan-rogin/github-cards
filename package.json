@@ -1,0 +1,24 @@
+{
+  "name": "github-cards",
+  "version": "1.0.0",
+  "description": "Create Github project cards",
+  "main": "create-cards.js",
+  "type": "module",
+  "dependencies": {
+    "@octokit/core": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanrogin/github-cards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanrogin/github-cards/issues"
+  },
+  "homepage": "https://github.com/stefanrogin/github-cards#readme"
+}

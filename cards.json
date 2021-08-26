@@ -1,0 +1,24 @@
+{
+    "project": {
+        "name": "Course 1: Web development fundamentals",
+        "description" : "Basic notions of HTML and CSS"
+    },
+    "columns" : [
+        {
+            "name" : "To Do",
+            "cards" : [
+                {
+                    "note" : "W3Schools HTML Tutorial"
+                }
+            ]
+        },
+        {
+            "name" : "In Progress",
+            "cards" : []
+        },
+        {
+            "name" : "Done",
+            "cards" : []
+        }
+    ]
+}
